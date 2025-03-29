@@ -8,7 +8,7 @@ root.title("Clock ")
 root.resizable(width = False, height = False)
 root.configure(background = "black")
 root.iconbitmap(r'clock.ico')
-root.geometry('1480x470+0+0')
+root.geometry('1000x310+0+0')
 
 def time():
 	string = strftime('%H : %M : %S %p')
@@ -21,11 +21,11 @@ def calendar():
 
 
 
-label = Label(root, font=('times-new-roman', 160 ) , background = 'black' , foreground = 'red')
+label = Label(root, font=('times-new-roman', 107 ) , background = 'black' , foreground = 'red')
 label.pack(anchor = 'center')
 time()
 
-label1 = Label(root, font=('times-new-roman', 166 ) , background = 'black' , foreground = 'cyan')
+label1 = Label(root, font=('times-new-roman', 110 ) , background = 'black' , foreground = 'cyan')
 label1.pack(anchor = 'center')
 calendar()
 
